@@ -1,0 +1,10 @@
+body
+{
+    /* background-image: url("../public/images/bg123.webp"); */
+    background-repeat:repeat-x;
+    /* background-position-y: center; */
+    background-attachment: fixed;
+    background-size: 85%;
+    background-position: center;
+    background-color: rgb(219, 136, 238);
+}

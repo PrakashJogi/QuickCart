@@ -1,0 +1,41 @@
+
+.images img:hover
+{
+    box-shadow: 0px 3px 4px 5px  rgb(106, 202, 222), 0px 5px 4px 0px hwb(197 67% 21%);
+    border: 2px solid rgb(4, 213, 255);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+table .add_to_cart{
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.50rem 3rem;
+    border: 1px solid white;
+    background-color:  #3b0bda;
+    border-radius: 8px;
+    background-color:  #f40076;
+    color: white;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+    
+}
+
+.add_to_cart:hover
+{
+    background-color: green;
+    color: white;
+    
+}
+
+.product-quantity
+{
+        /* font: inherit; */
+        padding: 0.5rem;
+        border-radius: 6px;
+        /* margin: 1rem; */
+        border: 1px solid #ccc;
+        width: 25%;
+        max-width: 100%;
+}

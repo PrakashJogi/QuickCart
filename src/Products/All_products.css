@@ -1,0 +1,33 @@
+.card-body-card
+{
+    width: 22rem;
+    border: none;
+    align-items: center;
+    float: left;
+    /* width: 25%; */
+    padding: 0 10px;
+}
+
+.card-btn
+{
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.50rem 4rem;
+    border: 1px solid white;
+    background-color:  #f40076;
+    border-radius: 100px;
+    color: white;
+    /* margin: 5rem; */
+}
+
+.card-btn:hover
+{
+    background-color: green;
+    color: white;
+    
+}
+
+.row
+{
+    width: 100%;
+}

@@ -1,0 +1,131 @@
+
+.nav-item-1{
+
+    margin-left: 2rem;
+    color: white;
+
+}
+.navbar-nav .nav-link.active
+{
+    color: white;
+}
+
+.nav1
+{
+    color: white;
+}
+.nav1:hover
+{
+    background-color:rgb(234, 255, 4);
+
+}
+
+.navbar-nav .nav1 .active
+{
+    color: white;
+}
+.nav-item-2
+{
+    color: white;
+}
+
+.nav-item-2:hover
+{
+    background-color: #f40076;
+    color: white;
+}
+
+
+.h_text{
+    margin: 0.4rem;
+    margin-left: 5rem;
+}     
+
+.right-side{
+    margin-left: 2rem;
+}
+
+/* .header
+{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+     padding: 1px ; 
+    color: #fff;
+} */
+.logo1{
+    padding-bottom: 1rem;
+    margin-left: 2.5rem;
+
+}
+.logoMy
+{
+    margin-bottom:-1rem;
+}
+.navbar_right
+{
+    margin-left: 45rem;
+}
+
+ .navbar_css{
+    background-color: #f40076;
+    /* padding: 1rem; */
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar_css-2{
+    background-color: rgb(0, 150, 200);
+    padding-top: 5rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.position_css
+{
+    position: fixed;
+    width: 100%;
+    /* mask-position: 1rem; */
+    /* background-position-y: top; */
+}
+
+.navbar-brand {
+    /* background-color: rgba(235, 224, 21, 0.966);
+    color: white;
+    text-align: center;
+    margin: 0rem;
+    font-weight: 500; */
+}
+
+/* .navbar-collapse 
+{
+    margin-right: 2rem;
+} */
+/*
+.header-bottom {
+    background-color: #dd0285 !important;
+    justify-content: flex-start;
+    padding: 0.8rem;
+    padding-left: 4.5rem;
+
+}
+*/
+
+.cart-text
+{
+    font-size: 1.2rem;
+}
+.fa-cart-shopping
+{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(234, 255, 4);
+} 
+
+.fa-user
+{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: rgb(234, 255, 4);
+} 
