@@ -7,11 +7,8 @@ const Banner = ()=>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <NavLink to="/laptop" className="nav-link">
-                        <img src="./images/banner3.jpg" class="d-block w-100 " alt="..."/>
-                    </NavLink>
-                    <NavLink to="/mobile" className="nav-link">
-                        <img src="./images/banner2.jpg" class="d-block w-100" alt="..."/>
+                    <NavLink to="/mens-fashion" className="nav-link">
+                        <img src="./images/banner9.jpg" class="d-block w-100 " alt="..."/>
                     </NavLink>
                     </div>
                     <div class="carousel-item">
@@ -26,9 +23,12 @@ const Banner = ()=>
                     </NavLink>
                     </div>
                     <div class="carousel-item">
-                    <NavLink to="/mens-fashion" className="nav-link">
-                        <img src="./images/banner9.jpg" class="d-block w-100" alt="..."/>
-                    </NavLink>                    
+                    <NavLink to="/laptop" className="nav-link">
+                        <img src="./images/banner3.jpg" class="d-block w-100" alt="..."/>
+                    </NavLink>            
+                    <NavLink to="/mobile" className="nav-link">
+                        <img src="./images/banner2.jpg" class="d-block w-100" alt="..."/>
+                    </NavLink>        
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

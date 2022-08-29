@@ -6,7 +6,7 @@
 
 .navbar-nav .nav-link.active
 {
-    color: rgb(255, 255, 0);
+    color: rgb(0, 242, 255);
 }
 
 .nav1
@@ -16,6 +16,7 @@
 
 .nav1:hover
 {
+    color:black;
     background-color:rgb(234, 255, 4);
 }
 
@@ -23,6 +24,8 @@
 {
     color: white;
 }
+
+
 
 .nav-item-2
 {
