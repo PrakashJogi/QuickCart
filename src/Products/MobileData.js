@@ -46,7 +46,6 @@ const MobileData = (props) =>
                         <div className="p_price mb-3">₹ {props.product_price}</div>
                         {/* <label>Qty:&nbsp;</label> */}
                         {/* <input type='number' value={ Qty } min="1" max="10" onChange={changeQty} placeholder="Quantity"  className='product-quantity' /> */}
-                        
                             <button className="add_to_cart" onClick={ ()=> add_to_cart(props.mobile_data) } >Add to Cart</button>
                         <div className="">Product Details:
                         <hr/>

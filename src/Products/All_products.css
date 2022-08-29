@@ -4,7 +4,6 @@
     border: none;
     align-items: center;
     float: left;
-    /* width: 25%; */
     padding: 0 10px;
 }
 
@@ -17,7 +16,6 @@
     background-color:  #f40076;
     border-radius: 100px;
     color: white;
-    /* margin: 5rem; */
 }
 
 .card-btn:hover

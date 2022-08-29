@@ -15,6 +15,7 @@ const Header = () =>
         <nav className="navbar fixed-top  header-middle navbar-expand-lg navbar_css">
             <div className="container-fluid ">
             <NavLink to="/" className="navbar-brand logoMy"><img src="./images/logoMy.png" className='logo1' height="70" width="70"/></NavLink>
+            <div className='logo_name'><div className='Q1'>Quick</div><div className='C1'>Cart</div></div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -25,18 +26,16 @@ const Header = () =>
                     </li>
                     <li className="nav-item ">
                     <NavLink to="/cart" className="nav-link nav1 cart-text right-side">Cart
-                            <Badge badgeContent={getData.length} color="success">
-                            <i className='fa-solid fa-cart-shopping'></i>
-                            </Badge>
-                        </NavLink>
+                        <Badge badgeContent={getData.length} color="warning">
+                        <i className='fa-solid fa-cart-shopping'></i>
+                        </Badge>
+                    </NavLink>
                     </li>    
                     <li className="nav-item nav-item-1 p-1">
                         <NavLink to="my-account" className="nav-link nav1 ">Login&nbsp;
                         <i className='fa-solid fa-user'></i>
                         </NavLink>
-                        
                     </li>
-                    
                 </ul>
                 </div>
             </div>
@@ -57,17 +56,15 @@ const Header = () =>
                     </li>
                     <li className="nav-item h_text  ">
                         <NavLink to="/mens-fashion" className="nav-link  nav-item-2">Men's Fashion</NavLink>
-                    </li>
-                                   
+                    </li>        
                 </ul>
                 </div>
             </div>
         </nav>
-
-      
         </header>
         </>
     );
 }
+
 
 export default Header;

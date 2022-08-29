@@ -1,15 +1,9 @@
 .nav-link{
     display:inline ;
-    /* color:rgb(246, 255, 0); */
-
-}
-
-.nav-link:hover{
-    /* color:rgb(0, 255, 247); */
 }
 
 .footer_{
-    background-color: rgb(233, 37, 37);
+    background-color: #05628d;;
     color:white;
 }
 
